@@ -4,37 +4,51 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./src/css/hmmm.css">
-    </head>
-    <body>
-        <div class="payBox">
-            <div class="title">
-                <h1>HmmmPay!</h1>
-                <i>Still hmmm while asking for payments? use <a href="./index.html">HmmmPay</a>!</i>
-            </div>
-            <div class="qr">
-                <img id="qr" src="https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Flocalx.cloud&size=400x400&color=105-255-107&bgcolor=1a1a1a&format">
-            </div>
-            <div class="details">
-                <i id="details">Scan with any upi app<br><b>${upi_id}</b> has requested you and payment of <b>₹${ruppee}</b> for <b>${message}</b></i>
-            </div>
-            <div class="button">
-                <div onclick="upiOpen()">Open Upi App</div>
-            </div>
-            <div class="footer">
-                <i>©Copyright & reservers 2024 ~ HmmmPay Made by <b onclick="github()">Healer-op</b></i>
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HmmmPay! - Payment Request</title>
+    <meta content="https://hmmm.eu.org/assets/logo.jpg" property="og:image">
+    <meta
+        content="Still Hmmm for requesting payments? HmmmPay offers payment links for upi id"
+        name="description">
+    <meta content="https://hmmm.eu.org/assets/logo.jpg" property="og:image">
+    <meta name="theme-color" content="#75ff70">
+    <meta content="https://hmmm.eu.org/assets/logo.jpg" property="twitter:image">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/css/hmmm.css">
+    <link href="./assets/logo.jpg" rel="shortcut icon" type="image/x-icon">
+    <link href="./assets/logo.jpg" rel="apple-touch-icon">
+</head>
+
+<body>
+    <div class="payBox">
+        <div class="title">
+            <h1>HmmmPay!</h1>
+            <i>Still hmmm while asking for payments? use <a href="./index.html">HmmmPay</a>!</i>
         </div>
-        <!--[if lt IE 7]>
+        <div class="qr">
+            <img id="qr"
+                src="https://api.qrserver.com/v1/create-qr-code/?data=https%3A%2F%2Flocalx.cloud&size=400x400&color=105-255-107&bgcolor=1a1a1a&format">
+        </div>
+        <div class="details">
+            <i id="details">How To
+                Use<br>https://hmmm.eu.org/?upi=<b>sigmachad@ibl</b>&amount=<b>30.00</b>&message=<b>HmmmmPay</b></i>
+        </div>
+        <div class="button">
+            <div onclick="upiOpen()">Open Upi App</div>
+        </div>
+        <div class="footer">
+            <i>©Copyright & reservers 2024 ~ HmmmPay Made by <b onclick="github()">Healer-op</b></i>
+        </div>
+    </div>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <script src="./src/js/hmmm.js" async defer></script>
-    </body>
+
+    <script src="./src/js/hmmm.js" async defer></script>
+</body>
+
 </html>
