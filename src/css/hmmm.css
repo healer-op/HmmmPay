@@ -15,7 +15,7 @@ body{
 }
 
 .payBox{
-    position: absolute;
+    position: relative;
     top:4vh;
     bottom: 4vh;
     text-align: center;
