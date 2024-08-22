@@ -5,14 +5,18 @@
 }
 
 html{
-    height: 100%;
+    background: linear-gradient(180deg, #1a1a1a 0%, rgb(0, 0, 0) 100%) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
 html,
 body{
-    background: linear-gradient(180deg, #1a1a1a 0%, rgb(0, 0, 0) 100%);
+    
     font-family: "Jersey 10", sans-serif;
     display: flex;
     justify-content: center;
