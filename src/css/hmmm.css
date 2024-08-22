@@ -4,13 +4,15 @@
     padding: 0%;
 }
 
+html{
+    height: 100vh
+}
 
 html,
 body{
     background: linear-gradient(180deg, #1a1a1a 0%, rgb(0, 0, 0) 100%);
-    height: 100vh;
+    overflow: hidden;
     width: 100vw;
-    overflow-x: hidden;
     font-family: "Jersey 10", sans-serif;
     display: flex;
     justify-content: center;
@@ -131,4 +133,15 @@ body{
 
 .payBox > .footer > i > b:hover {
     font-size: 2em;
+}
+
+@media only screen and (min-device-width: 480px){
+    .payBox > .qr > img {
+        width: 300px;
+        transition: 0.3s;
+    }
+
+    .payBox > .qr > img:hover {
+        width: 320px;
+    }
 }
