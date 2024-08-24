@@ -32,4 +32,30 @@ function upiOpen() {
 function github() {
     window.open("https://github.com/healer-op");
 }
+
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+
+document.onkeydown = (e) => {
+    if (e.key == 123) {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+        e.preventDefault();
+        alert("HmmmPay! Dont Allow you to do that!")
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+        e.preventDefault();
+        alert("HmmmPay! Dont Allow you to do that!")
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+        e.preventDefault();
+        alert("HmmmPay! Dont Allow you to do that!")
+    }
+    if (e.ctrlKey && e.key == 'U') {
+        e.preventDefault();
+        alert("HmmmPay! Dont Allow you to do that!")
+    }
+};
 //?upi=sigmachad@ibl&amount=30.00&message=HmmmmPay
