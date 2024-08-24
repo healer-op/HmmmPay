@@ -16,7 +16,6 @@ html{
 
 html,
 body{
-    
     font-family: "Jersey 10", sans-serif;
     display: flex;
     justify-content: center;
@@ -24,7 +23,6 @@ body{
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
-
 
 body{
     padding: 2em;
@@ -140,7 +138,7 @@ body{
     font-size: 2em;
 }
 
-@media only screen and (min-device-width: 480px){
+@media only screen and (max-width: 768px) {
     .payBox > .qr > img {
         width: 300px;
         transition: 0.3s;
