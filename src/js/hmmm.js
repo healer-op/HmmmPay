@@ -4,7 +4,7 @@ const params = new URLSearchParams(document.location.search);
 var amount = params.get("amount");
 var message = params.get("message");
 var upi_id = params.get("upi");
-var upilink = `upi://pay?pn=via%20hmmmPay&pa=${upi_id}&cu=INR&am=${amount}`
+var upilink = `upi://pay?pn=${message}&pa=${upi_id}&cu=INR&am=${amount}`
 
 if (!amount) {
     document.getElementById("button").innerText = "Copy Url"
